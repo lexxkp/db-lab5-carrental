@@ -198,7 +198,6 @@ START TRANSACTION;
 COMMIT;
 
 -- 11. Динамический запрос (PREPARE, EXECUTE, DEALLOCATE)
--- Рекомендуется выделять и запускать эти строки по одной.
 /*
 PREPARE stmt FROM 'SELECT * FROM rentals WHERE start_date BETWEEN ? AND ?';
 SET @date1 = '2023-11-01';
