@@ -29,7 +29,6 @@ CREATE TABLE managers (
     full_name VARCHAR(100) NOT NULL
 );
 
--- Исправленная таблица (без CHECK с CURRENT_DATE)
 CREATE TABLE rentals (
     car_id VARCHAR(10),
     client_id VARCHAR(10),
